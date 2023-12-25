@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN</title>
+</head>
+<body bgcolor="black" style="color: white;">
+    <center>
+        <h1>ENTER YOUR DETAILS</h1><br>
+        <hr>
+        <br>
+        <form action="index.html" target="_blank" method="get" enctype="multipart/form-data">
+        <table>
+        <tr>       
+        <div>
+            <td><label for="username">username</label></td>
+           <td><input type="text" name="username" id="username" placeholder="username" required></td>
+        </div>
+        </tr>
+        <tr>
+        <div>
+            <td><label for="password">password</label></td>
+            <td><input type="password" name="password" id="password" placeholder="password" required  minlength="10"></td>
+        </div>
+        </tr>
+        <tr>
+        <div>
+            <td><label for="age">age</label></td>
+            <td><input type="number" name="age" id="age" placeholder="Age"  max="30" required></td>
+        </div>
+        </tr>
+        <tr>
+        <div>
+            <td><label for="dateob">D.O.B</label></td>
+            <td><input type="date" name="dateob" id="age" placeholder="dateob"  min="01-12-1990" required></td>
+        </div>
+        </tr>
+        <tr>
+        <div>
+            <td><label for="male">male</label></td>
+            <td><input type="radio" name="gender" id="male" required></td>
+        </div>
+        </tr>
+        <tr>
+        <div>
+            
+            <td><label for="female">female</label></td>
+            <td><input type="radio" name="gender" id="female" required></td>
+        </div>
+        </tr>
+        <tr>
+        <div>
+            <td><select name="native" id="native">
+                <option value="thanjavur" >thanjavur</option>
+                <option value="thirunel">thirunel</option>
+                <option value="chennai">chennai</option>
+            </select></td>
+        </div> 
+        </tr> 
+        <tr> 
+            <div>
+               <td> <label for="file">FILE</label></td>
+               <td><input type="file" name="file" id="file" required></td>
+            </div>
+        </tr>
+        <tr>    
+            <div>
+                <td><label for="check">Agree</label></td>
+                <td><input type="checkbox" name="check" id="check" placeholder="Agree"  required></td>
+            </div>
+        </tr>
+        <tr>
+            <div>
+                <td><button type="submit">Submit</button></td>
+                <td><button type="reset">Reset</button></td>
+             </div>
+        </tr>     
+            
+        </table>   
+    </form>
+    </center>
+</body>
+</html>

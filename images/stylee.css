@@ -1,0 +1,16 @@
+.heading{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    
+}
+
+li,h2,ul{
+
+    
+    display: inline;
+}
+
+ul{
+    padding-left: 60%;
+}

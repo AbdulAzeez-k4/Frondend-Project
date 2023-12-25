@@ -1,0 +1,99 @@
+.home{
+    background-color: black;
+    color: white;
+    margin-top:  10px;
+    padding: 10px;
+
+}
+
+#java{
+    text-align: center;
+}
+h1,ul,li{     /*display test */
+    display: inline;
+}
+li:hover{
+    color: white;
+}
+
+.home>ul{
+    cursor: pointer;
+    color: grey;
+    margin-left: 60%;
+}
+
+.search{
+    text-align: center;
+    margin-top: 20px;
+    padding: 50px;
+}
+input{
+    width: 60%;
+    padding: 15px;
+}
+.bo1{
+   
+    border-color: red;
+    background-color: black;
+    color: bisque;
+    border-width: 2px;
+    width: 200px;
+    display: inline-block;
+    border-style: solid;
+   /* margin-left: 10%; */
+}
+.bo2{
+   
+    background-color: black;
+    color: bisque;
+    border-color: palevioletred;
+    border-width: 2px;
+    width: 200px;
+    display: inline-block;
+    border-style: solid;
+   /* margin-left: 10%; */
+}
+.bo3{
+    background-color: black;
+    color: bisque;
+    border-color: yellowgreen;
+    border-width: 2px;
+    width: 200px;
+    display: inline-block;
+    border-style: solid;
+   /* margin-left: 10%; */
+}
+.languages{
+    text-align: center;
+}
+.about{
+    text-align: center;
+
+}
+
+.bo1:hover{
+    background-color: white;
+    color: black;
+}
+.bo2:hover{
+    background-color: white;
+    color: black;
+}
+.bo3:hover{
+    background-color: white;
+    color: black;
+}
+.ok{
+    display: inline-block;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    padding: 20px;
+}
+
+.contact{
+    background-color: black;
+    color: cornsilk;
+    text-align: center;
+    padding: 40px;
+}

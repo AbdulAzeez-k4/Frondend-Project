@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    background-color: saddlebrown;
+    padding: 10px;
+}
+
+.book{
+    padding: 10px;
+    
+}
+
+.container{
+    background-color: black;
+    color: white;
+    width: 25%;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 30px;
+    display: inline-block; 
+    vertical-align: top;
+}
+
+.container h3{
+    color: rebeccapurple ;
+}
+
+.container button{
+    background-color: yellow;
+    color: black;
+    width: 22%;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border: none;
+    margin-top: 10px;
+}
+.get{
+    background-color: blueviolet;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 100%;
+    font-size: 40px;
+    position: fixed;
+    border: none;
+    right: 30px;
+    bottom: 30px;
+}
+
+.overlaypop{
+    background-color: plum;
+    opacity: 0.8;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    left: 0;
+    z-index: 1;
+    position: absolute;
+    display: none;
+
+}
+
+.popbox{
+    background-color: plum;
+    color: black;
+    padding: 40px;
+    width: 40%;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    z-index: 2;
+    display: none;
+}
+
+.popbox input{
+    background: transparent;
+    padding: 5px;
+    width: 100%;
+    border: none;
+    margin: 5px;
+    font-size: 20px;
+    border-bottom: solid black 2px;
+    
+}
+
+.popbox textarea{
+    background: transparent;
+    padding: 5px;
+    width: 100%;
+    
+    margin: 5px;
+    font-size: 20px;
+    border-bottom: solid black 2px;
+    
+}
+
+.popbox input ::placeholder{
+    color: black;
+}
+
+.popbox textarea ::placeholder{
+    color: black;
+}
+.popbox input  :focus{
+ outline: none;
+}
+
+.popbox textarea  :focus{
+    outline: none;
+   }
